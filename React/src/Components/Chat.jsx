@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import './chat.css';
+import './Chat.css';
 
 function StudyBot() {
     // State to store chat messages (array of objects)

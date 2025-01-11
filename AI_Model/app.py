@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from openai import OpenAI
 import os
@@ -11,7 +11,7 @@ load_dotenv()
 # Load OpenAI API key
 openai.api_key = os.getenv("OPENAI_API")
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='../React/dist', static_url_path='/')
 CORS(app)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
