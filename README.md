@@ -19,10 +19,6 @@ faiss (for efficient similarity search)
 
 pickle (for saving the model and data)
 
-Install these dependencies via pip:
-
-pip install pandas sentence-transformers numpy faiss-cpu
-
 
 # Install these dependencies via pip:
     pip install pandas sentence-transformers numpy faiss-cpu
