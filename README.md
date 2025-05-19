@@ -1,11 +1,11 @@
 # AI-HealthAdvisor
 Retrieval-Augmented Generation (RAG) system using OpenAI GPT-3 and FAISS to recommend medical conditions based on user-reported symptoms.
 
-Overview
+# Overview
 
 This project processes a dataset containing conditions and their associated symptoms. It performs text preprocessing, semantic chunking, embedding generation using a pre-trained model, and stores the embeddings in a FAISS index for fast retrieval. The system then allows for querying the most relevant chunks of symptoms based on the input query.
 
-Requirements
+# Requirements
 
 pandas (for data manipulation)
 
@@ -23,9 +23,9 @@ Install these dependencies via pip:
 
 pip install pandas sentence-transformers numpy faiss-cpu
 
-Steps
-Install these dependencies via pip:
-pip install pandas sentence-transformers numpy faiss-cpu
+
+# Install these dependencies via pip:
+    pip install pandas sentence-transformers numpy faiss-cpu
 
 1. Load and Preprocess Data
 
